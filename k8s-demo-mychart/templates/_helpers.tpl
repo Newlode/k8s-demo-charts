@@ -30,3 +30,14 @@ Create chart name and version as used by the chart label.
 {{- define "k8s-demo-mychart.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
+
+{{/*
+Create the name of the service account to use
+*/}}
+{{- define "nginx-ingress.serviceAccountName" -}}
+{{- if .Values.serviceAccount.create -}}
+    {{ default (include "k8s-demo-mychart.fullname" .) .Values.serviceAccount.name }}
+{{- else -}}
+    {{ default "default" .Values.serviceAccount.name }}
+{{- end -}}
+{{- end -}}
