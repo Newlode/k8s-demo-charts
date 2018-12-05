@@ -34,7 +34,7 @@ Create chart name and version as used by the chart label.
 {{/*
 Create the name of the service account to use
 */}}
-{{- define "nginx-ingress.serviceAccountName" -}}
+{{- define "k8s-demo-mychart.serviceAccountName" -}}
 {{- if .Values.serviceAccount.create -}}
     {{ default (include "k8s-demo-mychart.fullname" .) .Values.serviceAccount.name }}
 {{- else -}}
