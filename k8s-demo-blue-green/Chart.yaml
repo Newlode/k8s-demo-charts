@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for blue/green deployment in Kubernetes
+name: k8s-demo-blue-green
+version: 0.1.0
