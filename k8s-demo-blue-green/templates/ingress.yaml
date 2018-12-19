@@ -32,7 +32,7 @@ spec:
         paths:
           - path: {{ $ingressPath }}
             backend:
-              serviceName: {{ required "A valid .Values.targetServiceName entry required!" .Values.targetServiceName }}
-              servicePort: {{ required "A valid .Values.targetServicePort entry required!" .Values.targetServicePort }}
+              serviceName: {{ required "A valid .Values.targetServiceName entry required!" $.Values.targetServiceName }}
+              servicePort: {{ required "A valid .Values.targetServicePort entry required!" $.Values.targetServicePort }}
   {{- end }}
 {{- end }}
