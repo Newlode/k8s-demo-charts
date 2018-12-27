@@ -2,15 +2,15 @@ apiVersion: v1
 entries:
   k8s-demo-blue-green:
   - apiVersion: v1
-    created: 2018-12-19T17:14:49.382688+01:00
+    created: 2018-12-27T11:27:50.063186+01:00
     description: A Helm chart for blue/green deployment in Kubernetes
-    digest: 97c8f6a697c36606abde971cf3627a2c13eeb5a5770206ad589e5b11af72985d
+    digest: 4422d2343b47c3d21cc90975c60858f5b163169d6839cfffd48194c255ca6b4d
     name: k8s-demo-blue-green
     urls:
     - k8s-demo-blue-green-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2018-12-19T17:14:49.382389+01:00
+    created: 2018-12-27T11:27:50.062909+01:00
     description: A Helm chart for blue/green deployment in Kubernetes
     digest: 48c82275ffea6d6e58467cf4e20689e820896b5f7f3c6ca450260745ccddabe9
     name: k8s-demo-blue-green
@@ -20,7 +20,16 @@ entries:
   k8s-demo-mychart:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-12-19T17:14:49.386961+01:00
+    created: 2018-12-27T11:27:50.067428+01:00
+    description: Hello World chart demo
+    digest: 06cbbc7969ef6097726559c58b33a0fed2554d9a11851a77d8ae45adec2a9c9c
+    name: k8s-demo-mychart
+    urls:
+    - k8s-demo-mychart-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: 2018-12-27T11:27:50.067017+01:00
     description: Hello World chart demo
     digest: 16a2c2625f5f851e407a2bc1ac72cc0302bda2391ceebf36c976f5e9fa5d6cf0
     name: k8s-demo-mychart
@@ -29,7 +38,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-12-19T17:14:49.385768+01:00
+    created: 2018-12-27T11:27:50.066246+01:00
     description: Hello World chart demo
     digest: a4cf0a9b10147d34a3dbb79d5ad02f949f1b35f78d5605da7f6c03c01098787f
     name: k8s-demo-mychart
@@ -38,7 +47,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-12-19T17:14:49.384541+01:00
+    created: 2018-12-27T11:27:50.065343+01:00
     description: Hello World chart demo
     digest: 8d796535cefac805f70744e77820ae1428c89027d219955a34b2df1e458b54e0
     name: k8s-demo-mychart
@@ -47,11 +56,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-12-19T17:14:49.383318+01:00
+    created: 2018-12-27T11:27:50.064067+01:00
     description: Hello World chart demo
     digest: 5788176e9a90448e48039fc114bc22a749b5bd618ee9c4e3537764940b455843
     name: k8s-demo-mychart
     urls:
     - k8s-demo-mychart-0.1.0.tgz
     version: 0.1.0
-generated: 2018-12-19T17:14:49.38025+01:00
+generated: 2018-12-27T11:27:50.06052+01:00
